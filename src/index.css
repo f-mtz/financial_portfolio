@@ -1,0 +1,146 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 142 76% 36%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 142 76% 36%;
+  }
+
+  * {
+    @apply border-border scroll-smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  section {
+    @apply py-20;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-4xl font-bold mb-2;
+  }
+  
+  .section-subtitle {
+    @apply text-sm uppercase text-primary mb-8 font-medium tracking-wider;
+  }
+  
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6;
+  }
+  
+  .btn {
+    @apply inline-block px-6 py-3 text-sm font-bold uppercase tracking-wider transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-primary-foreground hover:bg-opacity-90;
+  }
+  
+  .btn-outline {
+    @apply border border-primary text-primary hover:bg-primary hover:text-primary-foreground;
+  }
+  
+  .nav-link {
+    @apply relative px-4 py-2 text-sm uppercase font-medium;
+  }
+  
+  .nav-link.active::after {
+    content: "";
+    @apply absolute left-4 right-4 bottom-0 h-0.5 bg-primary;
+  }
+  
+  .skill-bar {
+    @apply h-2 bg-secondary rounded-full overflow-hidden;
+  }
+  
+  .skill-progress {
+    @apply h-full bg-primary rounded-full;
+  }
+  
+  .timeline-item {
+    @apply relative pl-8 pb-12 border-l border-secondary;
+  }
+  
+  .timeline-dot {
+    @apply absolute -left-1.5 top-0 w-3 h-3 bg-primary rounded-full;
+  }
+  
+  .social-icon {
+    @apply w-10 h-10 flex items-center justify-center rounded-full bg-secondary text-muted-foreground hover:bg-primary hover:text-white transition-all duration-300;
+  }
+  
+  .scroll-to-top {
+    @apply fixed bottom-8 right-8 bg-primary text-white p-3 rounded-full shadow-lg z-50;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-lg;
+  }
+}
+
+@layer utilities {
+  .animate-counter {
+    counter-reset: count var(--num);
+    animation: count-up 2s forwards;
+  }
+}
