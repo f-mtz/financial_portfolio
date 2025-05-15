@@ -16,11 +16,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-    build: {
-    outDir: 'dist',
-    assetsDir: 'assets',          // Pasta onde os assets serão gerados
-    emptyOutDir: true,           // Limpa a pasta dist antes de cada build
-  },
+  base: "/financial_portfolio",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
