@@ -1,6 +1,6 @@
 
 import { useState, useRef, useEffect } from 'react';
-import { Mail, Phone, MapPin, Linkedin, Github, Kaggle  } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Github  } from 'lucide-react';
 import { FaKaggle } from 'react-icons/fa';  // Font Awesome Kaggle icon
 import TypingAnimation from './TypingAnimation';
 
