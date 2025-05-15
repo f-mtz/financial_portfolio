@@ -55,7 +55,7 @@ const HeroSection = () => {
               {/* Profile image */}
               <img 
                 // src="public\images\profile-face.JPG" 
-                src="public\images\original.jpg" 
+                src="images\original.jpg" 
                 alt="Felipe Ribeiro" 
                 className="w-full h-full object-cover object-center"
               />
