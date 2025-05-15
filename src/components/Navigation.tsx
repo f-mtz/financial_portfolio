@@ -114,7 +114,7 @@ const Navigation = () => {
       </header>
 
       {/* Social Icons Sidebar */}
-      <div className="fixed left-4 top-1/2 transform -translate-y-1/2 z-30 hidden md:flex flex-col space-y-4">
+      {/* <div className="fixed left-4 top-1/2 transform -translate-y-1/2 z-30 hidden md:flex flex-col space-y-4">
         <a href="#" className="social-icon">
           <span className="sr-only">Facebook</span>
           <i className="fab fa-facebook-f"></i>
@@ -135,7 +135,7 @@ const Navigation = () => {
           <span className="sr-only">Bitcoin</span>
           <i className="fab fa-bitcoin"></i>
         </a>
-      </div>
+      </div> */}
 
       {/* Scroll to Top Button */}
       <button
