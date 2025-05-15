@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div className="max-w-3xl">
           <p className="text-primary font-medium text-lg mb-4 animate-fade-in">Olá! meu nome é</p>
           <h1 className="text-6xl font-bold mb-6 animate-fade-in" style={{ animationDelay: "200ms" }}>
-            <TypingAnimation text="Felipe Ribeiro" speed={150} /><span className="text-primary">.</span>
+            <TypingAnimation text="Felipe Ribeiro" speed={550} /><span className="text-primary">.</span>
           </h1>
           <h2 className="text-2xl text-muted-foreground mb-6 animate-fade-in" style={{ animationDelay: "400ms" }}>
             Ciêntista de Dados | Analista em Modelagem de Risco | Finanças Quantitativas
