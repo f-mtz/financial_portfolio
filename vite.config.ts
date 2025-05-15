@@ -11,6 +11,10 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+    build: {
+    assetsInclude: ['**/*.jpg', '**/*.png'], // Inclui tipos de imagem
+    assetsDir: 'assets',                     // Pasta de saída
+  },
   plugins: [
     react(),
     mode === 'development' &&
