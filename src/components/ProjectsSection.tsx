@@ -11,12 +11,13 @@ interface Project {
 
 
 const projects: Project[] = [
-  { id: 1, title: "Brand Identity Design", category: "Data Analytics", image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&w=800&h=600", link: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&w=800&h=600" },
-  { id: 2, title: "E-commerce Website", category: "Data Science", image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&w=800&h=600", link: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&w=800&h=600" },
-  { id: 3, title: "Mobile App UI", category: "MLOps", image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&w=800&h=600", link: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&w=800&h=600" },
-  { id: 4, title: "Corporate Brochure", category: "Negócio", image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&w=800&h=600", link: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&w=800&h=600" },
-  { id: 5, title: "Portfolio Website", category: "Dashboards", image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&w=800&h=600", link: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&w=800&h=600" },
-  { id: 6, title: "Product Packaging", category: "Data Science", image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&w=800&h=600", link: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&w=800&h=600" },
+  { id: 1, title: "Credit Risk Modeling + IFRS9", category: "Data Science", image: "dist/images/IFRS9.jpg", link: "https://www.kaggle.com/code/fehhds/credit-risk-modeling" },
+  { id: 2, title: "Credit Score: Modelo de tomada de decisão automática na concessão de créditos", category: "Data Science", image: "dist/images/credit_score.jpg", link: "dist/images/credit_score.jpg" },
+  { id: 3, title: "Fraud Detection: Modelo de detecção de fraude em transações bancárias", category: "Data Science", image: "dist/images/fraud_detection.jpg", link: "dist/images/fraud_detection.jpg" },
+  { id: 4, title: "Previsão de Vendas Rossmann", category: "Data Science", image: "dist/images/rossmann.jpg", link: "https://github.com/f-mtz/rossmann-sales-predict" },
+  { id: 5, title: "MLFlow", category: "MLOps", image: "dist/images/mlflow.png", link: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&w=800&h=600" },
+  { id: 6, title: "Construção de um programa de fidelidade com clusterização de clientes.", category: "People Analytics", image: "dist/images/fidelizacao.jpg", link: "dist/images/fidelizacao.jpg" },
+  { id: 7, title: "Performance de Vendas", category: "Dashboards", image: "dist/images/dash_vendas.jpg", link: "https://app.powerbi.com/view?r=eyJrIjoiNmNmYTI2MzAtMDFlMS00NGY1LTkzNTEtZDIxOWE5YmY2NzhlIiwidCI6IjFhOTU2MzA4LTliYjItNDMzZC1hNmQ4LTkyYzNmODZmYTc0OCJ9" },
 ];
 
 const categories = ["Todos", ...new Set(projects.map(project => project.category))];
