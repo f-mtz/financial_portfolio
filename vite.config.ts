@@ -16,6 +16,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
+    // base: '/financial_portfolio',  // Com a barra no final
     build: {
     outDir: 'dist',
     assetsDir: 'assets',          // Pasta onde os assets serão gerados
