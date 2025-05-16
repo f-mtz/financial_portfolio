@@ -13,9 +13,9 @@ interface Project {
 const projects: Project[] = [
   { id: 1, title: "Credit Risk Modeling + IFRS9", category: "Data Science", image: "images/IFRS9.jpg", link: "https://www.kaggle.com/code/fehhds/credit-risk-modeling" },
   { id: 2, title: "Credit Score: Modelo de tomada de decisão automática na concessão de créditos", category: "Data Science", image: "images/credit_score.jpg", link: "dist/images/credit_score.jpg" },
-  { id: 3, title: "Fraud Detection: Modelo de detecção de fraude em transações bancárias", category: "Data Science", image: "images/fraud_detection.jpg", link: "dist/images/fraud_detection.jpg" },
+  { id: 3, title: "Fraud Detection: Modelo de detecção de fraude em transações bancárias", category: "Data Science", image: "images/fraud_detection.jpeg", link: "dist/images/fraud_detection.jpg" },
   { id: 4, title: "Previsão de Vendas Rossmann", category: "Data Science", image: "images/rossmann.jpg", link: "https://github.com/f-mtz/rossmann-sales-predict" },
-  { id: 5, title: "MLFlow", category: "MLOps", image: "images/mlflow.png", link: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&w=800&h=600" },
+  { id: 5, title: "MLFlow", category: "MLOps", image: "images/mlflow.jpg", link: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&w=800&h=600" },
   { id: 6, title: "Construção de um programa de fidelidade com clusterização de clientes.", category: "People Analytics", image: "images/fidelizacao.jpg", link: "dist/images/fidelizacao.jpg" },
   { id: 7, title: "Performance de Vendas", category: "Dashboards", image: "images/dash_vendas.jpg", link: "https://app.powerbi.com/view?r=eyJrIjoiNmNmYTI2MzAtMDFlMS00NGY1LTkzNTEtZDIxOWE5YmY2NzhlIiwidCI6IjFhOTU2MzA4LTliYjItNDMzZC1hNmQ4LTkyYzNmODZmYTc0OCJ9" },
 ];
