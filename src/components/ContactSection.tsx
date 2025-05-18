@@ -193,7 +193,7 @@ const ContactSection = () => {
 
             
             
-            <div className={`mt-12 transition-all duration-700`} style={{ transitionDelay: '800ms' }}>
+            {/* <div className={`mt-12 transition-all duration-700`} style={{ transitionDelay: '800ms' }}>
               <h3 className="text-2xl font-bold mb-4">Follow Me</h3>
               <div className="flex space-x-4">
                 <a href="#" className="social-icon">
@@ -217,10 +217,10 @@ const ContactSection = () => {
                   <i className="fab fa-dribbble"></i>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
           
-          <div ref={formRef} className={`bg-secondary p-8 rounded-lg border border-gray-800 transition-all duration-700 ${isFormVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
+          {/* <div ref={formRef} className={`bg-secondary p-8 rounded-lg border border-gray-800 transition-all duration-700 ${isFormVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
             <h3 className="text-2xl font-bold mb-6">
               <TypingAnimation text="Send Me a Message" speed={100} scrollTriggered={true} />
             </h3>
@@ -307,18 +307,18 @@ const ContactSection = () => {
                 {isSubmitting ? 'SENDING...' : 'SEND MESSAGE'}
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
         
         <div ref={mapRef} className={`mt-16 transition-all duration-1000 ${isMapVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <div className="rounded-lg overflow-hidden h-96">
+          <div className="rounded-lg overflow-hidden h-30">
             {/* This is a placeholder for a map. In a real implementation, you would integrate Google Maps or another map provider here */}
-            <div className="w-full h-full bg-secondary border border-gray-800 flex items-center justify-center">
+            {/* <div className="w-full h-full bg-secondary border border-gray-800 flex items-center justify-center">
               <div className="text-center">
                 <MapPin size={48} className="text-primary mx-auto mb-4" />
                 <p className="text-gray-300">123 Design Street, Creative City, New York, NY 10001</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

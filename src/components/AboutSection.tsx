@@ -155,34 +155,36 @@ Ao longo da minha jornada, desenvolvi projetos práticos que emulam desafios rea
             <div className="grid grid-cols-2 gap-8" ref={countersRef}>
               <div className={`text-center transition-all duration-500 ${isCountersVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} style={{ transitionDelay: '100ms' }}>
                 <div className="text-5xl font-bold text-primary mb-2">
-                  <span className="counter" data-target="125">0</span>
+                  <span className="counter" data-target="15">0</span>
                 </div>
                 <p className="text-sm uppercase tracking-wider">Projetos Completos</p>
               </div>
               <div className={`text-center transition-all duration-500 ${isCountersVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} style={{ transitionDelay: '200ms' }}>
                 <div className="text-5xl font-bold text-primary mb-2">
-                  <span className="counter" data-target="84">0</span>
+                  <span className="counter" data-target="5">0</span>+
                 </div>
-                <p className="text-sm uppercase tracking-wider">Deploys em Produção</p>
+                <p className="text-sm uppercase tracking-wider">Modelos em Produção</p>
               </div>
+
               <div className={`text-center transition-all duration-500 ${isCountersVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} style={{ transitionDelay: '300ms' }}>
                 <div className="text-5xl font-bold text-primary mb-2">
-                  <span className="counter" data-target="12">0</span>
+                  <span className="counter" data-target="5">0</span>
                 </div>
                 <p className="text-sm uppercase tracking-wider">Publicações</p>
               </div>
+
               <div className={`text-center transition-all duration-500 ${isCountersVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} style={{ transitionDelay: '400ms' }}>
                 <div className="text-5xl font-bold text-primary mb-2">
-                  <span className="counter" data-target="7500">0</span>+
+                  <span className="counter" data-target="85">0</span>%+
                 </div>
-                <p className="text-sm uppercase tracking-wider">Métrica ...</p>
+                <p className="text-sm uppercase tracking-wider">Acurácia em projetos de ML</p>
               </div>
             </div>
           </div>
           
           <div className="p-6 border border-gray-800 rounded-lg bg-background/50 timeline-container">
             <h3 className="text-2xl font-bold mb-6 text-primary">
-              <TypingAnimation text="Breve histórico de Experiências" speed={100} scrollTriggered={true} />
+              <TypingAnimation text="Breve histórico de Experiências Práticas" speed={100} scrollTriggered={true} />
             </h3>
             
             <div className="space-y-8">
@@ -190,25 +192,27 @@ Ao longo da minha jornada, desenvolvi projetos práticos que emulam desafios rea
                 <div className="timeline-dot"></div>
                 <div className="mb-2">
                   <h4 className="text-xl font-bold">Cientista de Dados</h4>
-                  <p className="text-sm text-primary">2018 - Atual</p>
+                  <p className="text-sm text-primary">2022 - Atual</p>
                 </div>
                 <p className="text-gray-400">
-                  Lorem ipsum.
+                   Através de projetos end-to-end, adquiri experiência prática em resolver desafios 
+                   reais do setor financeiro, combinando análise de dados, modelagem estatística e estratégia de negócios.
                 </p>
               </div>
               
               <div className={`timeline-item transition-all duration-500 ${isTimelineVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`} style={{ transitionDelay: '300ms' }}>
                 <div className="timeline-dot"></div>
                 <div className="mb-2">
-                  <h4 className="text-xl font-bold">Cargo ...</h4>
-                  <p className="text-sm text-primary">2015 - 2018</p>
+                  <h4 className="text-xl font-bold">Desenvolvedor Java Pleno</h4>
+                  <p className="text-sm text-primary">2021 - Atual</p>
                 </div>
                 <p className="text-gray-400">
-                  Completed major projects including 'Domik' and helped establish the company design language.
+                  Atualmente, trabalho na construção de funcionalidades, manutenção em relatórios, integrações, correção de bugs ... 
+                  Em um sistema de negociações na cadeia de suprimentos hospitalares presente em 5 países na América Latina.
                 </p>
               </div>
               
-              <div className={`timeline-item transition-all duration-500 ${isTimelineVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`} style={{ transitionDelay: '500ms' }}>
+              {/* <div className={`timeline-item transition-all duration-500 ${isTimelineVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`} style={{ transitionDelay: '500ms' }}>
                 <div className="timeline-dot"></div>
                 <div className="mb-2">
                   <h4 className="text-xl font-bold">Cargo ...</h4>
@@ -217,7 +221,7 @@ Ao longo da minha jornada, desenvolvi projetos práticos que emulam desafios rea
                 <p className="text-gray-400">
                   Learned fundamentals of design while supporting senior designers on various client projects.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
