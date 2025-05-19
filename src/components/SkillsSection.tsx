@@ -15,7 +15,7 @@ const skills: Skill[] = [
   { name: 'Análise RMF', percentage: 85, category: 'design' },
   { name: 'Market Basket Analysis (com Regras de Associação e Algoritmo Apriori e ECLAT)', percentage: 80, category: 'design' },
   { name: 'Análise Estatística e Teste A/B para tomada de decisão', percentage: 80, category: 'design' },
-  { name: 'Linguagens: Python, R, SQL e NoSQL', percentage: 80, category: 'design' },
+  { name: 'Linguagens: Python, R, SQL e NoSQL', percentage: 90, category: 'design' },
   { name: 'Dashboards: PowerBI, Shiny, Streamlit, Metabase...', percentage: 80, category: 'design' },
   { name: 'Modelos de Machine Learning', percentage: 90, category: 'development' },
   { name: 'Interpretabilidade de Modelos com SHAP', percentage: 85, category: 'development' },

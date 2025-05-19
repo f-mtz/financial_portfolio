@@ -27,15 +27,15 @@ const HeroSection = () => {
           <div className="flex flex-wrap gap-4 mb-8 animate-fade-in" style={{ animationDelay: "1000ms" }}>
             <div className="flex items-center">
               <PiggyBank className="text-primary mr-2" size={24} />
-              <span>Otimização de Alocação de Ativos</span>
+              <span>Análise de Risco e Retorno</span>
             </div>
             <div className="flex items-center">
               <Wallet className="text-primary mr-2" size={24} />
-              <span>Análise de Carteiras</span>
+              <span>Alocação de Ativos</span>
             </div>
             <div className="flex items-center">
               <CreditCard className="text-primary mr-2" size={24} />
-              <span>Analista Financeiro</span>
+              <span>Modelagem de Crédito</span>
             </div>
           </div>
           
@@ -55,7 +55,7 @@ const HeroSection = () => {
               {/* Profile image */}
               <img 
                 // src="public\images\profile-face.JPG" 
-                src="images\original.jpg" 
+                src="images\original3.jpg" 
                 alt="Felipe Ribeiro" 
                 className="w-full h-full object-cover object-center"
               />
