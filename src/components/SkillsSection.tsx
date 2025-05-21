@@ -99,10 +99,10 @@ const SkillsSection = () => {
               {skills.filter(skill => skill.category === 'design').map((skill, index) => (
                 <div key={index}>
                   <div className="flex justify-between mb-2">
-                    <span className="font-medium">{skill.name}</span>
-                    <span className="text-primary">{Math.round(progressValues[skill.name])}%</span>
+                    <span className="font-medium"><li>{skill.name}</li></span>
+                    {/* <span className="text-primary">{Math.round(progressValues[skill.name])}%</span> */}
                   </div>
-                  <Progress value={progressValues[skill.name]} className="h-2" />
+                 {/* <Progress value={progressValues[skill.name]} className="h-2" /> */}
                 </div>
               ))}
             </div>
@@ -118,10 +118,10 @@ const SkillsSection = () => {
               {skills.filter(skill => skill.category === 'development').map((skill, index) => (
                 <div key={index}>
                   <div className="flex justify-between mb-2">
-                    <span className="font-medium">{skill.name}</span>
-                    <span className="text-primary">{Math.round(progressValues[skill.name])}%</span>
+                    <span className="font-medium"><li>{skill.name}</li></span>
+                    {/* <span className="text-primary">{Math.round(progressValues[skill.name])}%</span> */}
                   </div>
-                  <Progress value={progressValues[skill.name]} className="h-2" />
+                  {/* <Progress value={progressValues[skill.name]} className="h-2" /> */}
                 </div>
               ))}
             </div>
