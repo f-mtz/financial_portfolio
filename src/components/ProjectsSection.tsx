@@ -17,8 +17,9 @@ const projects: Project[] = [
   { id: 4, title: "Previsão de Vendas Rossmann", category: "Data Science", image: "images/rossmann.jpg", link: "https://github.com/f-mtz/rossmann-sales-predict" },
   { id: 5, title: "MLFlow", category: "MLOps", image: "images/mlflow.jpg", link: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&w=800&h=600" },
   { id: 6, title: "Construção de um programa de fidelidade com clusterização de clientes.", category: "People Analytics", image: "images/fidelizacao.jpg", link: "dist/images/fidelizacao.jpg" },
-  { id: 7, title: "Credit Score Modeling com Naive Bayes", category: "Data Science", image: "images/credit_score2.jpg", link: "https://www.kaggle.com/code/fehhds/credit-score-modeling-com-naive-bayes" }
-  // { id: 8, title: "Performance de Vendas", category: "Dashboards", image: "images/dash_vendas.jpg", link: "https://app.powerbi.com/view?r=eyJrIjoiNmNmYTI2MzAtMDFlMS00NGY1LTkzNTEtZDIxOWE5YmY2NzhlIiwidCI6IjFhOTU2MzA4LTliYjItNDMzZC1hNmQ4LTkyYzNmODZmYTc0OCJ9" },
+  { id: 7, title: "Credit Score Modeling com Naive Bayes", category: "Data Science", image: "images/credit_score2.jpg", link: "https://www.kaggle.com/code/fehhds/credit-score-modeling-com-naive-bayes" },
+  { id: 8, title: "Performance de Vendas", category: "Dashboards", image: "images/dash_vendas.jpg", link: "https://app.powerbi.com/view?r=eyJrIjoiNmNmYTI2MzAtMDFlMS00NGY1LTkzNTEtZDIxOWE5YmY2NzhlIiwidCI6IjFhOTU2MzA4LTliYjItNDMzZC1hNmQ4LTkyYzNmODZmYTc0OCJ9" },
+  { id: 9, title: "Receita x Margem x Custos", category: "Dashboards", image: "images/revenue.jpg", link: "https://app.powerbi.com/view?r=eyJrIjoiMzY3MThkN2QtOGQzZS00YzMyLThmYjktY2M2ODUxMDZlNWYxIiwidCI6ImI0NmM3OTJjLTcyYzItNDA5YS04NjU3LTcwMmEzNjliZGIwZSJ9" },
 ];
 
 const categories = ["Todos", ...new Set(projects.map(project => project.category))];
